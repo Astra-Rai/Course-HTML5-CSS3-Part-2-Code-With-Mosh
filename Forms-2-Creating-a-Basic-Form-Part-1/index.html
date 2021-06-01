@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!--link tags after closing title and header tags-->
+    <!--link to: normalize css in css folder-->
+    <link rel="stylesheet" href="css/normalize.css">  
+    <!--link to: styles, styles.css-->
+    <link rel="stylesheet" href="css/styles.css"> 
+</head>
+<body>
+    <!--
+        - HTML form is used to collect user input. 
+        - The user input is most often sent to a server for processing.
+        - Every form should have an action, which is used to submit form, explained in later tutorials
+    -->
+    <form>
+            <div>
+            <!--'Name' text is horizontal, left of input field -->
+            <!--label is inline, <p> is not dont' use <p> Name </p> -->
+            <!--for attribute, for="name", allows association with input field with id="name"-->
+            <!--if users clicks on text name, input field auto focuses-->
+            <label for="name">Name</label>
+            <!--input field are also called form controls-->
+            <!--input type: text, a single line text field-->
+            <input id="name"type="text" />
+        </div>
+    </form>
+</body>
+</html>
