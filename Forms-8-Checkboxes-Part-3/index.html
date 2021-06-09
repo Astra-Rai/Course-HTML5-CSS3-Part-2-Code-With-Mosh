@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!--link tags after closing title and header tags-->
+    <!--link to: normalize css in css folder-->
+    <link rel="stylesheet" href="css/normalize.css">  
+    <!--link to: styles, styles.css-->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Milligram CSS -->  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+</head>
+<body>
+    <form>
+      <!--wrap input field and its lable same name for id and for-->
+        <div>
+            <!--not using name attribute, used for submittig to server-->  
+            <!--display checkboxes-->  
+            <input type="checkbox" id="front-end" />
+            <!--checkboxes needs label after them-->
+            <!--associate lable with input field, "front-end"-->
+            <!--change label element from block to inline-->
+            <label class="label-inline" for="front-end">Front-end</label>
+        </div>
+        <div>
+            <input type="text" id="back-end">
+            <lable class="label-inline" for="back-end"></lable>
+        </div>
+    </form>
+</body>
+</html>
