@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!--link tags after closing title and header tags-->
+    <!--link to: normalize css in css folder-->
+    <link rel="stylesheet" href="css/normalize.css">  
+    <!--link to: styles, styles.css-->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Milligram CSS -->  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+</head>
+<body>
+<form>
+    <!--suggestion list is implemented natively in the browser-->
+    <!--implement a suggestion list for input field-->
+    <!--provide a list of suggestion when user types in text field-->
+    <!--list="countries" identifies links input field to datalist with id="countries"-->
+    <input type="text" list="countries">
+    <!--note id of datalist id="countries" a unique identifer-->
+    <!--datalist element-->
+        <datalist id="countries">
+            <!--optioins added to datalist-->
+            <option>Australia</option>
+            <option>Canada</option>
+            <option>India</option>
+            <option>United States</option>
+        </datalist>
+</form>
+</body>
+</html>
+<!--note: by defualt, user can type any charater in input field for suggestion list, unless restricted-->
