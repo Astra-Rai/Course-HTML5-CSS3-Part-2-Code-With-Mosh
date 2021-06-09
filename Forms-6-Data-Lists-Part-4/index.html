@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!--link tags after closing title and header tags-->
+    <!--link to: normalize css in css folder-->
+    <link rel="stylesheet" href="css/normalize.css">  
+    <!--link to: styles, styles.css-->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Milligram CSS -->  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+</head>
+<body>
+<form>
+        <!--list attribute refers to a <datalist> element that contains pre-defined options for an <input> element. -->
+        <!--list attribute name and id for associated datalist element must be the same to be associated-->
+        <input type="text" list="countries" autocomplete="off"> 
+        <!--NOTE: list="counteries" and id="countries"-->
+        <datalist id="countries">
+            <!--optioins added to datalist-->
+            <!--value=1, user see 1 above text -->
+            <!--data-value="1", user cannot see "1" associated w/option-->
+            <!--custom data attribute, value can be read using JS then sent to server-->
+            <option data-value="1">Australia</option>
+            <option>Canada</option>
+            <option>India</option>
+            <option>United States</option>
+        </datalist>
+</form>
+</body>
+</html>
+<!--
+    Notes: data and data-value
+
+    - when value is selected from the datalist, we want to send unique value to server
+    - this value is associated with the selection, for example, Australia, uqniue value is 1
+    - for example, in the server, there is a database of counteries, each country has unique identifer
+    - when form is submitted, you want to send a unique identifer, so on the server
+    - we know what country the user selected
+    - use an HTML data-value =1 , create our own custom data attribute
+    - using JavaScript, we can read value of attribute and submit it to the server
+
+    Notes: autocomplete="off"
+
+    - turn off autocomplete feature of browser
+    - if user has previously typed something in text box we don't 
+    - want browser to show extra tool tip, for autocompletion of value
+    - autocomplete="off", turns of native autocompltion in browser
+
+-->
