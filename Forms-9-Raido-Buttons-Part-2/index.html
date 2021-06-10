@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!--link tags after closing title and header tags-->
+    <!--link to: normalize css in css folder-->
+    <link rel="stylesheet" href="css/normalize.css">  
+    <!--link to: styles, styles.css-->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Milligram CSS -->  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+</head>
+<body>
+    <!--radio buttons: use when you want user to only select a single item-->
+    <form>
+        <!--wrap group of elements in a <div> to stack vertically-->
+        <div>
+            <!--
+                - name attribute groups multiple, related butoons
+                - 'Silver and 'Gold' are both types of memberships
+             -->
+
+            <input type="radio" name="membership" id="silver" />
+            <!--for attribute = "silver" associates label w/input element with id="silver"-->
+            <label for="silver" class="label-inline">Silver</label>
+        </div>
+        <!--wrap group of elements in a <div> to stack vertically-->
+        <div>
+            <!--preselect radio button when page loads-->
+            <input type="radio" name="membership" id="gold" checked/>
+            <!-- The for attribute specifies which form element a label is bound to.-->
+             <label for="gold" class="label-inline">Gold</label>
+        </div>
+    </form>
+</body>
+</html>
+
+<!--
+
+The name attribute specifies the name of an <input> element.
+
+The name attribute is used to reference elements in a JavaScript, or to reference form data after a form is submitted.
+
+Note: Only form elements with a name attribute will have their values passed when submitting a form.
+
+-->
+
+
