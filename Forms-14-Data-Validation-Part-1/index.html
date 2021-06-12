@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!--link tags after closing title and header tags-->
+    <!--link to: normalize css in css folder-->
+    <link rel="stylesheet" href="css/normalize.css">  
+    <!--link to: styles, styles.css-->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Milligram CSS -->  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+</head>
+<body>
+
+    <form>
+        <!-- required attribute: specifies that an input field must be filled out before submitting the form -->
+        <!-- minlength: user has to enter min number of characters-->
+        <!--best practice, always use maxlength-->
+        <input type="text" required/>
+        <button type="submit">SUBMIT</button>
+    </form>
+</body>
+</html>
+<!--
+    Data Validation Notes: 
+
+    - before submitting form, validate data
+    - required field, make sure they are filled out
+    - make sure number and data field are in valid range
+    - email, ensure email syntax/format is valid
+    - validation prevents security attacks and data corruption
+    - HTML5 has basic built in validation
+    - required a boolean attribute, don't have to give it a value
+-->
