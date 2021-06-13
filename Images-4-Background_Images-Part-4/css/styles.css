@@ -1,0 +1,20 @@
+body{
+    background: url(../images/bg-paper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; /* images spance entire width of container */
+    height: 100vh;
+}
+/*
+    Aspect Ratio and Cover
+
+        The aspect ratio of an image is the ratio of its width to its height. 
+        It is commonly expressed as two numbers separated by a colon
+
+        Resizes background, so it covers its entire container while keeping its aspect ration
+
+    Cover value description:
+
+        Resize the background image to cover the entire container, 
+        even if it has to stretch the image or cut a little bit off one of the edges
+
+        */
