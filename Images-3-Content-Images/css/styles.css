@@ -1,0 +1,9 @@
+/*
+    - if we want image to take up entire width of viewport, note images is blurry
+    - this is an issue with Raster images, not scable vector graphics
+    - vw: is viewport width, 
+*/
+
+.meal{
+    width: 100vw; /* images set to entire width of viewport*/
+}
