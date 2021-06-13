@@ -1,0 +1,9 @@
+body{
+
+    /* background: url(../images/bg-paper.jpg); */
+    /* img width 400px, browser window bigger, image blurry, use bg-paper@2x.jpg instead */
+    background-image: url(../images/bg-sanfrancisco.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; /* browser resets background to cover entire container*/
+    height: 300vh; /*height set to 300% of the height of the viewport*/
+}
