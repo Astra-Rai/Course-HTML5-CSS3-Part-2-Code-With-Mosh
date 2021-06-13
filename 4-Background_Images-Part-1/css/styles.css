@@ -1,0 +1,10 @@
+body{
+    background: url(../images/bg-paper.jpg);/* ..go one level up */
+    background-repeat: no-repeat;
+}
+/*
+
+- background image repeat vertically: repeat y
+- background image repeat horizontal: repeat x
+
+*/
