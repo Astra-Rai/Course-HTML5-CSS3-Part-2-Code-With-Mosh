@@ -1,0 +1,10 @@
+body{
+
+    /* background: url(../images/bg-paper.jpg); */
+    /* img width 400px, browser window bigger, image blurry, use bg-paper@2x.jpg instead */
+    
+    background-image: url(../images/bg-paper@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 100vh;
+}
