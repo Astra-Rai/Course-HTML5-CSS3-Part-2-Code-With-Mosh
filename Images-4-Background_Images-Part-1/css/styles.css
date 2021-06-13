@@ -1,0 +1,16 @@
+body{
+    background: url(../images/bg-paper.jpg);
+    background-repeat: no-repeat;
+    background-position: 100px 100px; /* w/body container, move img 100px right, 100px down */
+
+}
+/*
+
+- by default, background img place at top left corner of its container, the body element
+- change positi
+- one for horizontal (x axis, left/ right) adjustment other for vertical (y-axis up/down)
+-  -100px (100 px to the left) -100px (100px up)
+- 100px to the right and 100 px down
+- relative values can be used 
+
+*/
