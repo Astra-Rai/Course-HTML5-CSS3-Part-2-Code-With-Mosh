@@ -1,0 +1,12 @@
+body{
+    background: url(../images/bg-paper.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 200px; /* images spance entire width of container */
+}
+/*
+    - background-size: 100% 100%, the image would disappear
+    - body element is block-level, the height by default
+    - 100% of the height of the body container is zero
+    - there isn't any content between the body open and closing tags
+
+*/
