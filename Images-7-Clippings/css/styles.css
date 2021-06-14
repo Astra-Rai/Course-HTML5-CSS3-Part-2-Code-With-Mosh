@@ -1,0 +1,8 @@
+/*
+
+    - Clippy source: https://bennettfeely.com/clippy/
+    - CSS clip-path maker, shape polygon
+*/
+.meal{
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
