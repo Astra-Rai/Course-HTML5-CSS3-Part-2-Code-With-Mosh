@@ -1,0 +1,33 @@
+
+.meal-1:hover{
+    filter: grayscale(70%);/* filter  property, greyscale function*/
+}
+
+.meal-2{
+    filter: grayscale(70%) blur(3px); /*blur added to images*/
+}
+
+
+/*apply filter when mouse hovered over images*/
+
+/*
+    Notes: different filters used in CSS: 
+    - grayscale
+    - blur
+    - contract
+    - brightness
+
+
+    Pseudo-Class Selectors to select an element in a particular class (state)
+
+    - :hover
+    - :active
+    - :visited
+
+
+    - Resource for more on filters:https://developer.mozilla.org/en-US/docs/Web/CSS/filter
+
+    - opera and IE don't support filter property
+    - check caniuse.com for more information: https://caniuse.com/?search=filter
+*/
+
