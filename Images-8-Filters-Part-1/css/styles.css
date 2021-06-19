@@ -1,0 +1,18 @@
+
+.meal-1{
+    filter: grayscale(70%);/* filter  property, greyscale function*/
+}
+
+.meal-2{
+    filter: grayscale(70%) blur(3px); /*blur added to images*/
+}
+
+/*
+    Notes: different filters used in CSS: 
+    - grayscale
+    - blur
+    - contract
+    - brightness
+
+*/
+
