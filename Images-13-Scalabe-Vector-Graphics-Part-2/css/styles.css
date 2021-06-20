@@ -1,0 +1,42 @@
+body{
+    background: url(../images/constellation.svg);
+    margin-top: 300px;
+}
+
+#container{
+    margin: auto;
+    width: 50%;
+    border: .8px solid coral;
+    border-radius: 25px;
+    padding: 10px;
+}
+.ufo{
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    width: 50%;
+    padding: 30px;
+}
+
+
+
+
+
+/*
+    scalable vectors notes:
+
+    - created in software (illustrator)
+    - format: SVG
+    - look sharp at any size
+    - not tied to pixels
+    - used for logs, icons, and simple graphics
+    defined by mathematical vectors: lines, curves, etc.
+
+    Customize and apply backgrounds fast
+
+    SVGs enable full-screen hi-res visuals with a file-size near 5KB and
+    are well-supported by all modern browsers. 
+    
+    https://www.svgbackgrounds.com/#bullseye-gradient
+
+*/
