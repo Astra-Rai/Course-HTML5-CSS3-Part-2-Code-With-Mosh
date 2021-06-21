@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <!--link tags after closing title and header tags-->
+    <!--link to: normalize css in css folder-->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!--link to: styles, styles.css-->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+   <body>
+  <img 
+    src="images/meal.jpg" 
+    alt="A bowl of samon" 
+    class="meal"
+    srcset="images/meal.jpg 1x, images/meal@2x.jpg 2x, images/meal@3x.jpg 3x"
+    
+    />
+    <!-- 3 different version of images provided for standard and high density screens-->
+    <!-- srcset attribute: provide different sources for different screens-->
+        <!--if device px ration is 1x uses meal.jpg, -->
+        <img 
+        src="images/meal.jpg" 
+        alt="A bowl of samon" 
+        class="meal"
+        />
+
+
+    <!--left 400 * 400, left, 800 * 800, right has a sharper images, use technique for homepage for imagae that are very sharp-->    
+  </body>
+</html>
