@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <!--link tags after closing title and header tags-->
+    <!--link to: normalize css in css folder-->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!--link to: styles, styles.css-->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+   <body>
+
+  <picture>
+    <!--if you're on mobile, source of image:meal-cropped.jpg-->
+    <source media="(max-width: 500px)" srcset="images/meal-cropped.jpg" />
+    <!--if viewport wider than 500 px, use the original image-->
+    <source media="(max-width: 501px)" srcset="images/meal.jpg" />
+    <img src="images/meal.jpg" />
+  </picture>
+
+    <!-- 
+      - art direction: show a cropped version of an image based on screen size
+      - images can be both croppped and zoomed in
+      - view of image different when width of screen is bigger or smaller
+      - implement art direction, use html picture element
+      - source element, use media attribuate and use media conditon w/breakpoint 
+    -->
+  </body>
+</html>
+
