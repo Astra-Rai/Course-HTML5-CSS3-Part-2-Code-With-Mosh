@@ -1,0 +1,21 @@
+
+.meal{
+    width: 400px;
+}
+/*
+    - iphone 3: resolution of 480 * 320
+    - iphone 4 resoultuion of 960 * 640, 2xs as many pixels horizontally and vertically
+    - same screen size, double resolution
+    - iphone 4, high density screen, retina displays, scale factor of 2x, resize img, makes twoice as big
+    - hd, image to want to look sharp, provide seperate version of image twice as big, display at regular size
+
+    - physical resolution, 960 * 640
+    - logical resolution, css based on logical, 480 * 320
+    - device pixel ratio, iphone 4 dpr of 2
+    - high density screen, dpr > 1 (more physical pixels than logical)
+
+    - meal-full.jpg, meal.jpg (base images 400 * 400), meal@2x.jpg, meal@3x.jpg
+    - 1200 px, 400 * 3 
+    - jpg, compress image to 7, 800 * 800, meal.2x
+    - start w/the largest image first
+*/
