@@ -1,0 +1,37 @@
+.container{
+    display: flex;  
+    flex-direction: column;
+}
+
+.box {
+    background-color: gold;
+    padding: 1rem;
+}
+
+.box:nth-of-type(2) {/*targets second element wthe the class of box*/
+    background-color: dodgerblue;
+}
+
+/*
+Using dev tools, you can view different phone styles 
+and landscape/potrait view
+*/
+
+
+/*if screen width is more than 600 pixles*/
+/*don't blindly create breakpoints, check*/
+@media screen and (min-width: 600px) {/*common breakpoints: ricostacruz.com/til/css-media-queries-breakpoints*/
+    .container {
+        flex-direction: row;/*when the width is greater than 600px, flex-direction: 
+        for element with class "container" transitionings from column to row*/
+    }
+}
+
+@media print {
+    body {
+        font-size: 12pt; /*for printing use pt, for padding centimeters or inches*/
+    }
+    .box {
+    padding: 0.5cm;
+    }
+}
